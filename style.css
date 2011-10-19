@@ -1,0 +1,81 @@
+/*
+Theme Name: StarDub
+Theme URI: http://www.innovativealpha.com/
+Description: A premium theme by Charles Desouza.
+Version: 1.0
+Author: Charles Desouza
+Author URI: http://www.charlesdesouza.com
+*/
+html { position: relative; top: -20px; }
+{margin: 0; padding: 0; }
+img { border: 0px; }
+.source-image { position:absolute; top:0; left:0; width:100%; height:100%; z-index:-5; position:fixed }
+body { margin:0; text-align:center; vertical-align:top; font-family: "Comic Sans MS", Helvetica, sans-serif; font-size:14px; color: #000; background-image:url("images/187.gif"); }
+body, h1, h2, h3, h4, h5, h6, blockquote, dd, dl,hr,form, p { margin:0; padding:0; }
+h1{ font-size:24px; padding: 0 0 10px 0; }
+p { padding: 10px 0 0 0; line-height: 18px; }
+#wrapper { width:950px; margin:0 auto 0 auto; text-align:left; }
+#header { float:left; width:950px; margin-bottom:40px; }
+#container { float:left; width:960px; position: relative; left: -5px; }
+#post { padding:25px; background-color:#d8d8d8; margin-bottom:30px; }
+#post h2 { color:#5f257d; font-size:24px; }
+#post h2 a { color:#5f257d; font-size:24px; text-decoration:none; }
+.entry { line-height:18px; }
+p.postmetadata { border-top:1px solid #ccc; margin:10px 0 0 0; }
+.navigation { padding: 10px 0 0 0; font-size: 14px; font-weight:bold; line-height: 18px; }
+.sidebar{ float:left; width: 240px; margin: 0 0 0 10px; display:inline; }
+.sidebar ul { list-style-type:none; margin:0; padding:0 10px 0 10px; }
+.sidebar ul li { padding:10px 0 10px 0; }
+.sidebar ul li h2 { font-size: 14px; }
+.sidebar ul ul li { padding: 0; line-height: 24px; }
+table#wp-calendar{ width:100%; }
+#footer { clear:both; float:left; width: 750px; padding-top: 10px; } 
+.comments-template{	margin: 10px 0 0; border-top: 1px solid #ccc; padding: 10px 0 0; }
+.comments-template ol{ margin: 0;padding: 0 0 15px;list-style: none;}
+.comments-template ol li{margin: 10px 0 0;line-height: 18px;padding: 0 0 10px;border-bottom: 1px solid #ccc;}
+.comments-template h2, .comments-template h3{font-family: Georgia, Sans-serif;font-size: 16px;}
+.commentmetadata{font-size: 12px;}
+.comments-template p.nocomments{padding: 0;}
+.comments-template textarea{font-family: Arial, Helvetica, Georgia, Sans-serif;	font-size: 12px;}
+#navbar { display: block; position: absolute; left:-20px; height:40px; width: 100%; margin-bottom:10px; z-index:20; }
+#navbar ul { margin: 0 auto; width: 960px; list-style: none; }
+#navbar ul li { float:left; height:40px; overflow:hidden; width: 160px; }
+#navbar ul li a { display: block; text-decoration:none; margin-top:10px; width: 150px; font-size: 14px; text-align:center; color:#fff; font-family:sans-serif; font-weight: 700;}
+#navbar ul li a:hover { color: #ffd600; }
+#navbar ul li a:selected {color: #ffd600; }
+#content_wrapper{  width:520px; background-color:#d8d8d8; float:left; margin-right:50px; padding:25px; margin-bottom:30px; }
+#content_heading{ color:#5f257d; font-size:24px; }
+#content_subheading{ color:#f05ae5; font-size:14px; font-weight:bold; }
+#posted_on{color:#ae6100; }
+#left_bar{ width:250px; float:right; }
+#lipdub_logo{ margin: 0 auto; }
+a:link {color: #939;}      /* unvisited link */
+a:visited {color:#939;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#939;}  /* selected link */
+.subtext { padding-top:15px; }
+.subtext img { margin-left: auto; margin-right:auto; margin-top:-1.5px; display:block; }
+.green { background:#BBCA32; }
+.yellow { background:#F89820; }
+.red { background:#0278BE; }
+.purple { background:#5F3A95; }
+.blue { background:#06a6b7; }
+.orange { background:#F89820; }
+.pink { background:#E03f96; }
+#navbar ul li .sublinks { font-size:12px; border-bottom: 1px solid #fff; }
+.first { margin-top:5px; }
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
